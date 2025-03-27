@@ -64,6 +64,7 @@ public class Triangulo {
         System.out.println("/*******************************/");
     }
 
+    // esse método vai verificar se o triângulo é do tipo 3, 4, 5
     public void verificarTria345() {
         System.out.println("/*******************************/");
         System.out.println("*    Verificando Triângulo    *");
