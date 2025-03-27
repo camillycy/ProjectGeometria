@@ -40,15 +40,15 @@ public class Triangulo {
 
     public void calcularPerimetro(){
         System.out.println("/*******************************/");
-        System.out.println("*  Calculando Perimetro  *");
+        System.out.println("*  Calculando Perímetro  *");
         System.out.println("/*******************************/");
 
         perimetro = base + lado2 + lado3;
-        System.out.println("O perimetro e" + perimetro);
+        System.out.println("O perímetro é" + perimetro);
         System.out.println("/*******************************/");
     }
 
-    //isosceles / escaleno/ equilatero
+    // esse método define o tipo do triângulo, se é escaleno, isosceles ou equilátero.
     public void definirTipo (){
         System.out.println("/*******************************/");
         System.out.println("*       Definindo Tipo        *");
@@ -57,9 +57,9 @@ public class Triangulo {
             if (base == lado2 && base == lado3){
             System.out.println("Esse triangulo eh equilatero");
         } else if (base != lado2 && base !=lado3 && lado2 != lado3) {
-                System.out.println("Esse triangulo eh escaleno");
+                System.out.println("Esse triangulo é escaleno");
             } else {
-                System.out.println("esse triangulo eh isosceles");
+                System.out.println("esse triangulo é isósceles");
     }
         System.out.println("/*******************************/");
     }
